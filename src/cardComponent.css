@@ -1,0 +1,22 @@
+
+.hover-card {
+    background-color:#F9EFF8 ; 
+    border: 1px solid #dee2e6 ; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s ease;
+  }
+  
+.hover-scroll {
+    max-height: 200px;
+    overflow: hidden; /* Hide scrollbar by default */
+    transition: overflow 0.3s ease; /* Optional for smoothness */
+  }
+  
+  .hover-card:hover .hover-scroll {
+    overflow-y: auto; /* Show scrollbar on hover */
+    scroll-behavior: smooth; /* Optional smooth scrolling */
+  }
+  .card-footer{
+    background-color: rgb(253, 251, 248);
+  }
